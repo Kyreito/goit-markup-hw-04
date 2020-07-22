@@ -155,6 +155,13 @@ body {
 
 .contacts-icon {
   margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  fill: var(--primary-text-color);
+}
+
+.contacts-icon:hover {
+  fill: var(--accent-color);
 }
 
 .contacts-item:not(:last-child) {
@@ -468,18 +475,25 @@ body {
   margin-right: 10px;
 }
 
-.team-list .social-wrapper {
+.social-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  box-shadow: none;
 }
 
 .social-wrapper:hover {
   background-color: var(--accent-color);
+}
+
+.social-icons-svg {
+  fill: #afb1b8;
+}
+
+.social-icons-svg:hover {
+  fill: var(--primary-white-color);
 }
 
 /*Customers*/

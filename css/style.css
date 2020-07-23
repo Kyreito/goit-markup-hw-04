@@ -209,6 +209,7 @@ body {
   background-color: var(--primary-text-color);
   background-image: url("../img/Header-img.png");
   height: 600px;
+  background-repeat: no-repeat;
 }
 
 .wprapper-transparent {
@@ -509,20 +510,27 @@ body {
 .ctmrs-list-item .ctmrs-logo {
   display: flex;
   justify-content: center;
+  align-items: center;
   border-width: 1px;
   border-style: solid;
-  border-color: var(--primary-text-color);
+  border-color: #afb1b8;
   border-radius: 4px;
   width: 170px;
   height: 90px;
   font-size: 0;
+  color: #afb1b8;
 }
 
 .ctmrs-list-item:not(:last-child) {
   margin-right: 30px;
 }
 
+.customers-icon {
+  fill: currentColor;
+}
+
 .ctmrs-logo:hover {
+  color: var(--accent-color);
   border-color: var(--accent-color);
 }
 

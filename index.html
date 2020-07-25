@@ -64,17 +64,18 @@
 
     <main class="main-page">
       <section class="hero-section">
-        <div class="wprapper-transparent">
-          <div class="container">
-            <h1 class="main-title">
-              Эффективные решения <br />
-              для вашего бизнеса
-            </h1>
-            <button type="button" class="hero-modal-btn">
-              Заказать услугу
-            </button>
-          </div>
+        <!--<div class="wprapper-transparent"> цей блок був для попереднього фону-->
+
+        <div class="container">
+          <h1 class="main-title">
+            Эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <button type="button" class="hero-modal-btn">
+            Заказать услугу
+          </button>
         </div>
+        <!--</div>-->
       </section>
 
       <!--Качества-->
@@ -485,7 +486,9 @@
                 href="#"
                 aria-label="Ссылка на Instagram"
               >
-                <img src="./img/footericon/instagram.svg" alt="Instagram" />
+                <svg class="footer-social-icon" width="20" height="20">
+                  <use href="./img/icomoon/sprite.svg#icon-instagram"></use>
+                </svg>
               </a>
             </li>
             <li class="footer-social-list-item">
@@ -494,7 +497,9 @@
                 href="/"
                 aria-label="Ссылка на Tvitter"
               >
-                <img src="./img/footericon/twitter.svg" alt="Tvitter" />
+                <svg class="footer-social-icon" width="20" height="20">
+                  <use href="./img/icomoon/sprite.svg#icon-twitter"></use>
+                </svg>
               </a>
             </li>
             <li class="footer-social-list-item">
@@ -502,7 +507,10 @@
                 class="footer-social-wrapper"
                 href="/"
                 aria-label="Ссылка на Facebook"
-                ><img src="./img/footericon/facebook.svg" alt="Facebook" />
+              >
+                <svg class="footer-social-icon" width="20" height="20">
+                  <use href="./img/icomoon/sprite.svg#icon-facebook"></use>
+                </svg>
               </a>
             </li>
             <li class="footer-social-list-item">
@@ -510,7 +518,9 @@
                 class="footer-social-wrapper"
                 href="/"
                 aria-label="Ссылка на LinkID"
-                ><img src="./img/footericon/linkedin.svg" alt="LinkID" />
+                ><svg class="footer-social-icon" width="20" height="20">
+                  <use href="./img/icomoon/sprite.svg#icon-linkedin"></use>
+                </svg>
               </a>
             </li>
           </ul>
@@ -528,11 +538,10 @@
               /></span>
             </form>
             <button class="footer-btn" type="submit">
-              Подписаться<img
-                class="icon-send"
-                src="./img/footericon/icon-send.svg"
-                alt="icon-send"
-              />
+              Подписаться
+              <svg class="icon-send" width="24" height="24">
+                <use href="./img/icomoon/sprite.svg#icon-icon-send"></use>
+              </svg>
             </button>
           </div>
         </div>

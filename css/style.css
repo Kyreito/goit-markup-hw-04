@@ -155,8 +155,6 @@ body {
 
 .contacts-icon {
   margin-right: 10px;
-  height: 20px;
-  width: 20px;
   fill: currentColor;
 }
 
@@ -170,6 +168,11 @@ body {
 
 .contacts-item-link {
   display: flex;
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
   color: var(--primary-title-color);
 }
 
@@ -209,8 +212,8 @@ body {
   background-color: var(--primary-text-color);
   background-image: linear-gradient(
       to right,
-      rgba(47, 48, 58, 0.6),
-      rgba(47, 48, 58, 0.6)
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
     ),
     url("../img/Header.images.jpg");
 
@@ -474,7 +477,7 @@ body {
 /*social links*/
 
 .social-list {
-  margin-bottom: 24px;
+  padding-bottom: 24px;
   display: flex;
   justify-content: center;
 }
